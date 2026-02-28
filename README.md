@@ -42,10 +42,11 @@ Then open **http://localhost:3000** in your browser.
 
 ## How It Works
 
-1. You type a description in the chat (e.g., "add a red sphere that bounces")
+1. You type a description in the chat, either for a game or a moving object. (e.g., "add a red sphere that bounces")
 2. The message is sent to the Gemini API with a system prompt that instructs it to generate Three.js code
 3. The generated code is executed in the browser, modifying the live 3D scene
-4. Objects are tracked in a named registry so you can reference and modify them later
+4. Objects are tracked in a named heirarchy so you can reference and modify them later
+5. Click the square button at the stop to clear the scene and start over, and the Pause button to stop/resume play. Alternatively, the game can be paused by typing in the console to actively change the game.
 
 ### Architecture
 
@@ -62,7 +63,7 @@ astrocade-mini/
 
 - **Backend**: Express.js server that proxies chat messages to the Gemini API and manages conversation history
 - **Frontend**: Single HTML file with Three.js for 3D rendering and a custom chat interface
-- **AI**: Gemini 2.0 Flash generates Three.js code snippets that are executed in the browser context
+- **AI**: Gemini 2.5 Flash generates Three.js code snippets that are executed in the browser context
 
 ## Example Prompts
 
