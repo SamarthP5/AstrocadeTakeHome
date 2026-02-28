@@ -18,7 +18,7 @@ A chat-based 3D scene builder powered by AI. Describe what you want to see and w
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher)
-- A free [Gemini API key](https://aistudio.google.com/apikey)
+- A free [Gemini API key](https://aistudio.google.com/apikey), or a paid account if you want to avoid rate limiting issues.
 
 ### Setup
 
@@ -78,7 +78,7 @@ astrocade-mini/
 
 - **Three.js** (r128) — 3D rendering
 - **Express.js** — Backend server
-- **Google Gemini 2.0 Flash** — AI code generation
+- **Google Gemini 2.5 Flash** — AI code generation
 - **Vanilla JS** — Frontend (no build step needed)
 
 ## License
