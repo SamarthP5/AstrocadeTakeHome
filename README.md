@@ -2,7 +2,7 @@
 
 A chat-based 3D scene builder powered by AI. Describe what you want to see and watch it appear in a live Three.js scene.
 
-![Astrocade Mini](screenshots/demo.png)
+![Astrocade Mini]
 
 ## Features
 
