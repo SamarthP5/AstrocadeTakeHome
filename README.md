@@ -1,8 +1,7 @@
-# 🎮 Astrocade Mini
+# 🎮 Astrocade Take Home Project
 
 A chat-based 3D scene builder powered by AI. Describe what you want to see and watch it appear in a live Three.js scene.
 
-![Astrocade Mini]
 
 ## Features
 
@@ -68,12 +67,13 @@ astrocade-mini/
 ## Example Prompts
 
 - "Create a blue cube in the center"
-- "Make the cube rotate slowly"
-- "Add a ring of trees around the cube"
+- "Create a game where I can use my arrows keys to move around and collect coins"
+- "Build a 2D platformer game where I can use WASD to move and the space bar to jump"
 - "Build a little house with a red roof and a chimney"
 - "Create a solar system with orbiting planets"
 - "Add a particle fountain that shoots colored spheres upward"
 - "Make a snowman with a carrot nose"
+- **PROMPTS CAN EITHER DESCRIBE BUILDING A GAME MECAHNIC OR A SCENE BUILDING SCRIPT**
 
 ## Tech Stack
 
